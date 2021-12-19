@@ -27,7 +27,7 @@ function BankAccount(owner, balance, lineOfCredit, loans, creditScore) {
 }
 
 const barBankAccount = new BankAccount("BarTibarovsky", 100000, 500000, 0, 100);
-barBankAccount.depositeMoney(200000);
+barBankAccount.depositeMoney(250000);
 barBankAccount.increaseLineOfCredit(700000);
 barBankAccount.takeLoan(50000);
 barBankAccount.updateCreditScore(150);
