@@ -1,0 +1,53 @@
+#clickButton{
+    background-color: crimson;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 20%;
+    font-weight: 50;
+    width: 80px;
+    height: 30px;
+    color: white;
+    position:absolute; left:800px; top:170px;
+}
+
+#clickButton2{
+    background-color: crimson;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 20%;
+    font-weight: 50;
+    width: 90px;
+    height: 30px;
+    color: white;
+    position:absolute; left:200px; top:400px;
+}
+
+#clickArea{
+    background-image: url("./boardBGimg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.header{
+text-align: center;
+font-weight: 500;
+padding-top: 2%;
+color: white;
+}
+
+#scoreBoard{
+    text-align: center;
+    color: white;
+}
+
+#hits{
+    width: 3%;
+}
+
+#misses{
+    width: 3%;
+}
